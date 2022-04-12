@@ -42,3 +42,4 @@ print(binarySearch(numbers, 8))     #works
 print(binarySearch(numbers, 1))     #works
 print(binarySearch(numbers, -5))    #works
 print(binarySearch(numbers, 20))    #Does not work, why?
+print("Hello")
