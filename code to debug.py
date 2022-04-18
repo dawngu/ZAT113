@@ -19,7 +19,8 @@ def binarySearch(arr, target):
 
     while upper_bound != lower_bound:
         
-        middle_index = (upper_bound - lower_bound) // 2 #half way between upper and lower
+        middle_index = (upper_bound - lower_bound) // 2 #half way between upper and lower. Here's what thing might go wrong!
+        
         middle_value = arr[middle_index]
 
         if middle_value == target:
@@ -42,4 +43,4 @@ print(binarySearch(numbers, 8))     #works
 print(binarySearch(numbers, 1))     #works
 print(binarySearch(numbers, -5))    #works
 print(binarySearch(numbers, 20))    #Does not work, why?
-print("Hello")
+
