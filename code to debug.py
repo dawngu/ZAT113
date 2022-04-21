@@ -19,7 +19,7 @@ def binarySearch(arr, target):
 
     while upper_bound != lower_bound:
         
-        middle_index = (upper_bound + lower_bound) // 2 #half way between upper and lower. Here's what thing might go wrong!
+        middle_index = (upper_bound + lower_bound) // 2 #half way between upper and lower. The correct answer has been updated.
         
         middle_value = arr[middle_index]
 
