@@ -5,6 +5,8 @@ however, some debugging is needed to fix a problem.
 
 Author: Joey Nicholas, johannes.nicholas@utas.edu.au
 Date: 08/04/2022
+
+Try to debug this code!
 """
 
 
@@ -18,8 +20,8 @@ def binarySearch(arr, target):
     lower_bound = 0 #target must be above this index
 
     while upper_bound != lower_bound:
-        
-        middle_index = (upper_bound + lower_bound) // 2 #half way between upper and lower. The correct answer has been updated.
+
+        middle_index = (upper_bound - lower_bound) // 2 #half way between upper and lower. Here's what thing might go wrong!
         
         middle_value = arr[middle_index]
 
